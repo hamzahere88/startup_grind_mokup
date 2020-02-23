@@ -50,6 +50,12 @@ a {
     height: 30px;
     background-image: linear-gradient(to right, #ff785f, #ff2a45, #a143be);
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.grad p{
+  align-self: center;
 }
 /* for test */
 span
