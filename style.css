@@ -18,6 +18,7 @@ body
 header {
   display: flex;
   justify-content: space-around;
+  margin-top: 15px;
 }
 nav{
    
@@ -32,11 +33,20 @@ ul li {
   padding: 10px;
   align-self: center;
   font-size: 14px;
-  color: dimgrey
+  color: dimgrey;
+  align-self: center;
 }
 a {
   text-decoration: none;
   color: black;
+}
+/* nav end */
+/* main1 start */
+.main1
+{
+  display: flex;
+  flex-direction: column;
+  
 }
 .logo_img
 {
@@ -62,4 +72,17 @@ span
 {
   padding: 10px;
 }
+/* setion join team */
+.join_fom
+{
+  display: flex;
+  width: 100%;
+  height: 130PX;
+  background-color: #000000;
+  position: absolute;
+  color: white;
+  
 
+
+}
+/* join team k andar pra ka margin dene k lye *
